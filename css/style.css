@@ -199,7 +199,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .stac-logo {
 	position: absolute;
 	width: 100px;
-	top: 100px;
+	bottom: 25px;
 	left: 20px;
 }
 
@@ -208,7 +208,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	float: right;
 	width: 100px;
 	right: 20px;
-	top: 100px;
+	bottom: 20px;
 }
 
 .astrax-logo {
@@ -259,7 +259,6 @@ header .intro-text {
 /* Features Section */
 #features {
 	padding: 100px 0;
-	background: #f6f6f6;
 }
 #features i.fa {
 	font-size: 38px;
@@ -319,6 +318,10 @@ header .intro-text {
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+}
+/* Keynotes Section */
+#keynote {
+	background: #f6f6f6;
 }
 /* Services Section */
 #services {

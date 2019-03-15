@@ -509,14 +509,14 @@ header .intro-text {
 	margin-bottom: 40px;
 }
 #spon .team-img1{
-	width: 400px;
+	width: 75%;
 	height: 300px;
-	margin-left: 0px;
+	margin-left: 0%;
 }
 #spon .team-img2{
-	width: 380px;
+	width: 65%;
 	height: 300px;
-	margin-left: 50px;
+	margin-left: 15%;
 }
 
 /* Contact Section */

@@ -455,6 +455,7 @@ header .intro-text {
 /* Team Section */
 #team {
 	padding: 100px 10px 100px 10px;
+	background: #f6f6f6;
 }
 #team h4 {
 	margin: 5px 0;
@@ -471,6 +472,53 @@ header .intro-text {
 	padding: 10px 0 0 0;
 	color: #888;
 }
+/* Sponsors section */
+#spon {
+	padding: 100px 0 100px 0;
+	
+}
+#spon .service-desc {
+	margin: 50px 10px 20px;
+}
+#spon h2{
+	color: black;
+}
+#spon .title h1{
+	color: grey !important;
+}
+#spon .section-title h2::after {
+	position: absolute;
+	content: "";
+	background: black;
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+
+#spon h3 {
+	font-weight: 500;
+	padding: 5px 0;
+	color: #888;
+}
+#spon p {
+	color: #f6f6f6;
+}
+#spon .service-desc {
+	margin-bottom: 40px;
+}
+#spon .team-img1{
+	width: 75%;
+	height: 300px;
+	margin-left: 0%;
+}
+#spon .team-img2{
+	width: 65%;
+	height: 300px;
+	margin-left: 15%;
+}
+
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;

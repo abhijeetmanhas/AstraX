@@ -519,6 +519,19 @@ header .intro-text {
 	margin-left: 15%;
 }
 
+#spon .team-img0{
+	width: 100%;
+	max-width: 200px;
+	max-height: 200px;
+
+}
+#spon .team-img01{
+	width: 100%;
+	margin-top: 30px;
+	max-width: 200px;
+	max-height: 200px;
+
+}
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;

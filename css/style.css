@@ -579,7 +579,7 @@ header .intro-text {
 	border: 2px solid #fff;
 }
 #contact .btn-custom:hover {
-	color: #1f386e;
+	color: #391217;
 	background: #fff;
 }
 label {
@@ -655,7 +655,7 @@ color: #777;
 	transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-	color: #608dfd;
+	color: #391217;
 	background: #fff;
 }
 /* Footer Section*/
@@ -713,3 +713,4 @@ color: #777;
 		width: 200px;
 	}
 }
+

@@ -98,7 +98,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #7a242f 0%, #f7566b 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -115,7 +115,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #7a242f 0%, #f7566b 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -673,6 +673,100 @@ color: #777;
 #footer a:hover {
 	border-bottom: 2px solid #4b1920;
 }
+
+/* how to reach campus */
+#howto {
+	padding: 100px 0 100px 0;
+	
+}
+#howto .service-desc {
+	margin: 50px 10px 20px;
+}
+#howto h2{
+	color: black;
+}
+#howto .title h1{
+	color: grey !important;
+}
+#howto .section-title h2::after {
+	position: absolute;
+	content: "";
+	background: black;
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+
+#howto h3 {
+	font-weight: 500;
+	padding: 5px 0;
+	color: #888;
+}
+#howto p {
+	color: #f6f6f6;
+}
+#howto .service-desc {
+	margin-bottom: 40px;
+}
+#howto .team-img1{
+	width: 75%;
+	height: 300px;
+	margin-left: 0%;
+}
+#howto .team-img2{
+	width: 65%;
+	height: 300px;
+	margin-left: 15%;
+}
+
+#howto .team-img0{
+	width: 100%;
+	max-width: 200px;
+	max-height: 200px;
+
+}
+#howto .team-img01{
+	width: 100%;
+	margin-top: 30px;
+	max-width: 200px;
+	max-height: 200px;
+
+}
+
+/* timetable */
+.col-md-4{
+	margin: 40px auto;
+}
+.profile{
+	padding: 40px 50px 20px;
+	background-color: #6d212b; 
+	color: white;
+	width: 100%;
+	height: 530px;
+	margin: auto;
+}
+
+
+.user{
+	margin-left: -13.5%;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+}
+.profile img{
+	top: -60px;
+	position: absolute;
+	left: calc(50% -20px);
+	border: 4px solid white;
+}
+.profile:hover{
+	box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+
 
 @media (max-width: 768px) {
 	#about img {
